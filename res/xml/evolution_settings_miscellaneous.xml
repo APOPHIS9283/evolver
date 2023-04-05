@@ -8,6 +8,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/misc_title">
 
+    <!-- Weather -->
+  <Preference
+        android:key="omnijaws_settings"
+        android:icon="@drawable/ic_weather"
+        android:title="@string/qs_weather_settings_title"
+        android:summary="@string/qs_weather_settings_summary"
+        android:fragment="com.evolution.settings.fragments.misc.OmniJawsSettings" />
+
     <!-- Game Space -->
     <Preference
         android:key="game_settings"
